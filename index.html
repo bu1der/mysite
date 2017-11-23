@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en-US">
 <head>
 	<meta charset="utf-8">
 	<title>My site</title>
 	<meta name="decription" value="Мета опис сторінки" />
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<a href="index.html" class="button" class="sansserif">Home</a>
-	<a href="about.html" class="button1">About Me</a>
-	<a href="skills.html" class="button2">My Skills</a>
+	<a href="index.html" class="button-home" class="sansserif">Home</a>
+	<a href="about.html" class="button-about-me">About Me</a>
+	<a href="skills.html" class="button-my-skills">My Skills</a>
+
 	<div class="container"> <!-- Background image-->
-		<img src="background.jpg" alt="My photo" style="width: 100%">
+		<img src="./resors/background.jpg" alt="My photo" style="width: 100%">
 	<div class="centered">Oleksiy Alex #Engineer</div> <!-- My name-->
 	</div>
 
 	<!-- Form log in user-->
-	<div class="top-right"><form action="/action_page.php"><br><input type="email" name="email" placeholder="Email"> <br><br><input type="password" name="Password" placeholder="Password"><br><br><input type="submit" value="Log In"></form></div>
+	<div class="top-right"><form action="/action_page.php"><br><input class="input" type="email" name="email" placeholder="Email"> <br><br><input class="input" type="password" name="Password" placeholder="Password"><br><br><input type="submit" value="Log In"></form></div>
 
 	<div class="bottom-left">Why did I become an engineer? I've always been amazed by trying to understand how things or machines work!</div>
 	
-<footer class="sansserif" style="color: #900022;text-align: center;"> ©2017 Copyright 121 Company</footer>
+	<footer class="sansserif"> ©2017 Copyright 121 Company</footer>
 </body>
 </html>
