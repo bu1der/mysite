@@ -1,26 +1,50 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-	<meta charset="utf-8">
-	<title>My site</title>
-	<meta name="decription" value="Мета опис сторінки" />
-	<link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-	<a href="index.html" class="button-home" class="sansserif">Home</a>
-	<a href="about.html" class="button-about-me">About Me</a>
-	<a href="skills.html" class="button-my-skills">My Skills</a>
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Job Junior</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<div class="container"> <!-- Background image-->
-		<img src="./resors/background.jpg" alt="My photo" style="width: 100%">
-	<div class="centered">Oleksiy Alex #Engineer</div> <!-- My name-->
-	</div>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style_login.css">
+    <!--owl carosel-->
+    <link rel="stylesheet" type="text/css" href="libs/assets/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="libs/assets/owl.theme.default.css">
+  </head>
+  <body>
 
-	<!-- Form log in user-->
-	<div class="top-right"><form action="/action_page.php"><br><input class="input" type="email" name="email" placeholder="Email"> <br><br><input class="input" type="password" name="Password" placeholder="Password"><br><br><input type="submit" value="Log In"></form></div>
+    <div class="container-fluid h-100">
+        <div class="row justify-content-center align-items-center h-100">
+            <div class="col col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                <form action="">
+                    <div class="form-group">
+                        <input class="form-control form-control-lg" placeholder="Логін" type="text">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control form-control-lg" placeholder="Пароль" type="password">
+                    </div>
+                    <div class="form-check text-left">
+                        <label class="form-check-label text-primary">
+                          <input type="checkbox" class="form-check-input">
+                          Запам'ятати мене
+                        </label>
+                      </div>
+                    <div class="form-group">
+                        <a href="about.html" class="btn btn-primary btn-lg btn-block">Увійти</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
-	<div class="bottom-left">Why did I become an engineer? I've always been amazed by trying to understand how things or machines work!</div>
-	
-	<footer class="sansserif"> ©2017 Copyright 121 Company</footer>
-</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="libs/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
 </html>
